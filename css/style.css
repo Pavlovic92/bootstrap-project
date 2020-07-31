@@ -1,108 +1,23 @@
-/* GLOBAL SETTINGS */
-.bottom-line-black {
-  border-bottom: 3px solid #000;
-  width: 100px;
-  margin: 0 auto;
-  margin-bottom: 30px; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - scss/style.scss
 
-.bottom-line-white {
-  border-bottom: 3px solid #fff;
-  width: 90px;
-  margin: 0 auto;
-  margin-bottom: 30px; }
-
-/*******************/
-/* NAVIGATION */
-.bg-dark {
-  background-color: #263949 !important; }
-
-/* MAIN SLIDE */
-.main-slide-wrapper {
-  background-color: #00bc9c;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center; }
-
-.main-slide h1 {
-  color: #fff;
-  font-weight: 900;
-  margin-top: 20px; }
-.main-slide p {
-  color: #fff;
-  font-weight: 600; }
-
-.main-slide-star > svg {
-  background-color: #00bc9c;
-  color: #fff; }
-
-/* PORTFOLIO */
-.portfolio-wrapper {
-  margin-top: 50px;
-  text-align: center; }
-  .portfolio-wrapper > h2 {
-    font-weight: 900; }
-
-.row-wrapper > img {
-  padding-bottom: 30px; }
-
-/* ABOUT */
-.about-wrapper {
-  margin-top: 50px;
-  background-color: #00bc9c;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
-.about {
-  text-align: center; }
-  .about > h2 {
-    font-weight: 900;
-    color: #fff; }
-
-.about-star > svg {
-  background-color: #00bc9c;
-  color: #fff; }
-
-.about-paragraph {
-  text-align: justify;
-  color: #fff; }
-
-.about-btn {
-  padding: 10px 30px;
-  margin-top: 30px; }
-
-/* CONTACT ME */
-.contact-wrapper {
-  text-align: center;
-  margin-top: 50px; }
-  .contact-wrapper > h2 {
-    font-weight: 900; }
-
-.contact-form {
-  margin-bottom: 50px; }
-
-#submit-btn {
-  background-color: #00bc9c;
-  color: #fff; }
-  #submit-btn:hover {
-    background-color: #00bc9dd7; }
-
-.form-control:focus {
-  border-color: #00bc9c !important;
-  box-shadow: 0 0 0 0.2rem rgba(0, 188, 156, 0.37) !important; }
-
-/* FOOTER */
-.footer-wrapper {
-  background-color: #263949;
-  padding-top: 20px;
-  padding-bottom: 50px; }
-
-.footer-about {
-  text-align: center;
-  color: #fff; }
-  .footer-about > h4 {
-    margin-bottom: 10px;
-    margin-top: 50px; }
-  .footer-about > i {
-    margin: 5px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+C:/Ruby27-x64/bin/sass:23:in `load'
+C:/Ruby27-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss/style.scss"; }

@@ -10,26 +10,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
 
     <title>Bootstrap - Project</title>
 </head>
 
 <body>
+
     <!------- NAVIGATION -------->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">BIT STUDENT</a>
+            <a class="navbar-brand" href="./index.html">BIT STUDENT</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link active" href="./index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="./about.html">About</a>
+                    <a class="nav-item nav-link" href="./contact.html">Contact</a>
                 </div>
             </div>
         </div>
@@ -43,16 +45,16 @@
                 <img src="./img/profile.png" alt="Profile picture">
                 <h1>BOOTSTRAP AND SASS</h1>
 
-                <div class="bottom-line-white"></div>
+                <div class="title-bottom-line-white"></div>
 
-                <p>Web Developer - Graphic Artist - User Experience Designer</p>
+                <h5>Web Developer - Graphic Artist - User Experience Designer</h5>
             </div> <!-- main-slide -->
         </div> <!-- container -->
     </div> <!-- main-slider-wrapper -->
 
     <!-- PORTFOLIO -->
     <div class="container">
-        <div class="portfolio-wrapper">
+        <div class="homepage-portfolio-wrapper">
             <h2>PORTFOLIO</h2>
 
             <div class="bottom-line-black"></div>
@@ -65,19 +67,23 @@
                 <img src="./img/safe.png" class="col-lg-4 col-md-6 col-sm-12 col-12" alt="Picture of a safe">
                 <img src="./img/submarine.png" class="col-lg-4 col-md-6 col-sm-12 col-12" alt="Picture of a submarine">
             </div>
-        </div><!-- portfolio-wrapper -->
+            <div class="col-lg-12">
+                <a href='./portfolio.html'> <button type="button"
+                        class="btn btn-outline-dark homepage-portfolio-btn">Find Out More</button></a>
+            </div>
+        </div><!-- homepage-portfolio-wrapper -->
     </div><!-- container -->
 
     <!-- ABOUT -->
-    <div class="about-wrapper">
+    <div class="homepage-about-wrapper">
         <div class="container">
-            <div class="about">
+            <div class="homepage-about">
                 <h2>ABOUT</h2>
 
                 <div class="bottom-line-white"></div>
 
                 <div class="row">
-                    <p class="about-paragraph col-lg-12 col-md-12 col-sm-12 col-12">Lorem ipsum dolor sit amet
+                    <p class="homepage-about-paragraph col-lg-12 col-md-12 col-sm-12 col-12">Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Nemo
                         alias
                         nam
@@ -113,17 +119,19 @@
                         beatae,
                         eaque
                         animi illo autem quisquam delectus eius dolor doloremque.</p>
+
                     <div class="col-lg-12">
-                        <button type="button" class="btn btn-outline-light about-btn">Find Out More</button>
+                        <a href='./about.html'><button type="button"
+                                class="btn btn-outline-light homepage-about-btn">Find Out More</button></a>
                     </div>
                 </div><!-- row -->
-            </div><!-- about -->
+            </div><!-- homepage-about -->
         </div><!-- container -->
-    </div><!-- about-wrapper -->
+    </div><!-- homepage-about-wrapper -->
 
     <!-- CONTACT ME -->
     <div class="container">
-        <div class="contact-wrapper">
+        <div class="contact-form-wrapper">
             <h2>CONTACT ME</h2>
 
             <div class="bottom-line-black"></div>
@@ -142,7 +150,7 @@
                 <input type="submit" class="form-control col-lg-2 col-md-2 col-sm-2 col-2" id="submit-btn"
                     value="Submit">
             </div><!-- contact-form -->
-        </div><!-- contact-wrapper -->
+        </div><!-- contact-form-wrapper -->
     </div><!-- container -->
 
     <!-- FOOTER -->

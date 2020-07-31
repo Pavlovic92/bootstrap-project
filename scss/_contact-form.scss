@@ -1,0 +1,26 @@
+/* CONTACT ME */
+.contact-form-wrapper {
+  text-align: center;
+
+  > h2 {
+    font-weight: 900;
+  }
+}
+
+.contact-form {
+  margin-bottom: 50px;
+}
+
+#submit-btn {
+  background-color: $green-color;
+  color: #fff;
+
+  &:hover {
+    background-color: #00bc9dd7;
+  }
+}
+
+.form-control:focus {
+  border-color: $green-color !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 188, 156, 0.37) !important;
+}

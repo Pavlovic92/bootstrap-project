@@ -1,0 +1,25 @@
+.portfolio-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  h1 {
+    font-weight: 900;
+  }
+  h5 {
+    font-weight: 600;
+  }
+}
+
+.portfolio-row-wrapper {
+  margin-top: 50px;
+  > img {
+    padding-bottom: 30px;
+  }
+}
+
+.portfolio-row-wrapper > img:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.05);
+}

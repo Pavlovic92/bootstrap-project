@@ -1,0 +1,42 @@
+.contact-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact_title-wrapper {
+  text-align: center;
+  > h1 {
+    font-weight: 900;
+  }
+  > h5 {
+    font-weight: 600;
+  }
+}
+
+.contact_info-wrapper {
+  margin-top: 50px;
+}
+
+.social_info-wrapper {
+  margin-bottom: 30px;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.fa-paragraph {
+  font-size: 20px;
+  &:before {
+    display: none;
+  }
+}
+
+.media_icons-wrapper {
+  margin-bottom: 30px;
+}
+
+iframe {
+  width: 100%;
+  padding: 0px;
+}
